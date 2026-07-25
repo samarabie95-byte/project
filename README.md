@@ -46,13 +46,9 @@ for product in [prod1, prod2, prod3, prod4]:
     print(product.describe())
 
 print(user1.is_active)
-
 user1.deactivate()
-
 print(user1.is_active)
 
 print(prod3.price)
-
 prod3.apply_discount(15)
-
 print(prod3.price)est 
